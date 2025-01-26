@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haya Abusada's Portfolio</title>
+    <link rel="stylesheet" href="style1.css"> 
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="qualifications.html">Qualifications</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="genai.html">AI Page</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <h1>Haya Abusada's Portfolio</h1>
+            <label class="switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </header>
+
+    <section id="about-me">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>I am a junior Computer Engineering student at Texas A&M University, where I am honing my skills in both hardware and software development. With a strong passion for technology and innovation, I strive to apply my learning to real-world problems and projects. I am dedicated to advancing my expertise in computer systems, programming, and digital solutions, while exploring opportunities to contribute to the tech industry. As I continue to grow academically and professionally, I am excited to bring my creativity and technical knowledge to new challenges.</p>
+        </div>
+        <div class="about-photo">
+            <img src="your-photo.jpg" alt="Haya's Photo">
+        </div>
+    </section>
+    <section id="facts-hobbies">
+        <div class="facts">
+            <h3>Facts</h3>
+            <ul>
+                <li>Speak Both English and Arabic Fluently</li>
+                <li>Raised internationally</li>
+                <li>Fun fact: I'm a triplet!</li>
+            </ul>
+            <h4>Hobbies</h4>
+            <ul>
+                <li>Programming</li>
+                <li>Reading</li>
+                <li>Traveling</li>
+                <li>Movies/Shows</li>
+            </ul>
+        </div>
+        <div class="education">
+            <h3>Education</h3>
+            <p>Texas A&M University <img src="tamulogo.png" alt="Texas A&M Logo" class="tamulogo"></p>
+            <p>Bachelor of Science in Computer Engineering</p>
+            <p>Minors: Mathematics, Cybersecurity</p>
+            <p> GPA: 3.952 (4.0 Scale)</p>
+            <p>Graduation Date: May 2026</p>
+            <a href="https://catalog.tamu.edu/undergraduate/engineering/computer-science/computer-engineering-bs/#programrequirementstext" target="_blank">Computer Engineering Degree Plan</a>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-left">
+            <a href="https://www.linkedin.com/in/hayaabusada/" target="_blank">LinkedIn</a>
+        </div>
+        <div class="footer-center">
+            <a href="mailto:hayaabusada@gmail.com">hayaabusada@gmail.com</a>
+        </div>
+        <div class="footer-right">
+            <a href="tel:+13467589350">+1 346-758-9350</a>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('theme-toggle').addEventListener('change', function () {
+            const stylesheet = document.getElementById('stylesheet');
+            stylesheet.href = this.checked ? 'style2.css' : 'style1.css';
+        });
+    </script>
+</body>
+</html>
+
