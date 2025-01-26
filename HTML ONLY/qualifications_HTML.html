@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haya Abusada's Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index_HTML.html">Home</a></li>
+                <li><a href="portfolio_HTML.html">Portfolio</a></li>
+                <li><a href="qualifications_HTML.html">Qualifications</a></li>
+                <li><a href="service_HTML.html">Service</a></li>
+                <li><a href="genai_HTML.html">AI Page</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <h1>Haya Abusada's Portfolio</h1>
+            <label class="switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </header>
+
+    <section id="qualifications">
+        <div class="qualifications-row">
+            <div class="qualifications-text">
+                <h2>Resume</h2>
+                <a href="resume.pdf" target="_blank">Download Resume</a>
+                <br>
+                <img src="resume-icon.png" alt="Resume Icon" class="resume-icon">
+            </div>
+    
+            <div class="skills-container">
+                <div class="skills-column">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>Programming Languages: Python, C++, Java, JavaScript</li>
+                        <li>Web Development: HTML, CSS, SQL</li>
+                        <li>Data Analysis: MATLAB, R</li>
+                        <li>Hardware: Verilog, Microcontrollers</li>
+                        <li>Tools: GitHub, Microsoft Office Suite</li>
+                        <li>Languages: Fluent in English and Arabic</li>
+                        <li>Soft Skills: Collaboration, Adaptability</li>
+                        <li>Problem-Solving & Time Management</li>
+                    </ul>
+                </div>
+            
+                <div class="skills-icons-grid">
+                    <img src="python-icon.png" alt="Python Icon" class="skill-icon">
+                    <img src="html-icon.png" alt="HTML Icon" class="skill-icon">
+                    <img src="hardware-icon.png" alt="Hardware Icon" class="skill-icon">
+                    <img src="office-icon.png" alt="Office Icon" class="skill-icon">
+                    <img src="problem-icon.png" alt="Problem Icon" class="skill-icon">
+                    <img src="language-icon.png" alt="Language Icon" class="skill-icon">
+                </div>
+            </div>
+        </div>
+        <div class="experience-interests-container">
+            <div class="experience-column">
+                <h3>Experience</h3>
+                <div class="job-entry">
+                    <div class="job-details">
+                        <p>
+                            <strong>Qatar Petrochemical Company</strong><br>
+                            <em>Computer Engineering Intern | June 2024 - July 2024</em><br>
+                            Enhanced technical proficiency through dedicated training initiatives and hands-on learning experiences.
+                            Acquired extensive expertise by shadowing seasoned engineers specializing in cybersecurity, distributed control
+                            systems (DCS), and programmable logic controllers (PLC), encompassing the analysis and testing of equipment
+                            and systems.
+                            Assisted in the implementation of diverse control routines for a petrochemical plant, utilizing Honeywell DCS
+                            Experion PKS HMI Graphics Building & Design to oversee process monitoring, control, and event management,
+                            ensuring swift and effective responses.
+                            Facilitated in understanding the IT to OT linkage and data flow, optimizing equipment performance and
+                            evaluating operational data accessibility.
+                        </p>
+                    </div>
+                    <img src="company-logo.png" alt="Company Logo" class="company-logo"> 
+                </div>
+            </div>
+            <div style="position: relative;">
+                <div class="decorative" style="top: 220px; left: 5%;"></div>
+                <div class="decorative" style="top: 220px; right: 5%;"></div>
+                <div class="interests-container">
+                    <h3>Interests</h3>
+                    <ul>
+                        <li>Cloud Computing
+                            <br><a href="https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-cloud-computing" target="_blank">More info on Cloud Computing</a>
+                        </li>
+                        <li>Cybersecurity and Research
+                            <br><a href="https://owasp.org/about/" target="_blank">Non-profit Cybersecurity Organization</a>
+                        </li>
+                        <li>Embedded Systems and Hardware Design
+                            <br><a href="https://www.raspberrypi.org" target="_blank">Raspberry Pi System</a>
+                        </li>
+                        <li>AI and Machine Learning
+                            <br><a href="https://www.tensorflow.org/about" target="_blank">AI building ecosystem</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+    
+
+    <footer>
+        <div class="footer-left">
+            <a href="https://www.linkedin.com/in/hayaabusada/" target="_blank">LinkedIn</a>
+        </div>
+        <div class="footer-center">
+            <a href="mailto:hayaabusada@gmail.com">hayaabusada@gmail.com</a>
+        </div>
+        <div class="footer-right">
+            <a href="tel:+13467589350">+1 346-758-9350</a>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('theme-toggle').addEventListener('change', function () {
+            const stylesheet = document.getElementById('stylesheet');
+            stylesheet.href = this.checked ? 'style2.css' : 'style1.css';
+        });
+    </script>
+</body>
+</html>
